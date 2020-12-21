@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(0deg, green, blue);
+  background: linear-gradient(#111, #555);
 }
 
 .wrapper {
@@ -30,7 +30,6 @@ body {
   height: 25px;
   margin: 5px;
   border: 3px solid white;
-  transition: all 0.3s ease;
   overflow: hidden;
 }
 
@@ -42,7 +41,7 @@ body {
   height: 31px;
   width: 106px;
   background-color: white;
-  transition: all 1s;
+  transition: all 0.7s;
 }
 
 .div.active::before {
@@ -65,7 +64,7 @@ button {
 }
 
 button:active {
-  transform: scale(1.02);
+  transform: scale(0.98);
 }
 
 button:focus {
